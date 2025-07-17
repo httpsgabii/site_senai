@@ -1,1 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  background-color: #004080;
+  color: white;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.topo {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-size: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+}
+.content {
+  background-color: white;
+  width: 1000px;
+  margin: 20px auto 35px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content h2 {
+  color: #003a70;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.rodape {
+  background-color: #004080;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+/* Formação de âncora */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #7d7d7d;
+}
+
+/* FORMULÁRIO */
+.formulario {
+  width: 300px;
+  background: #fafafa;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Campos do formulário */
+.form_contato {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  height: 25px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form_textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  height: 80px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 90%;
+  background: #003a70;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 7px;
+  border-style: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0055a5;
+  cursor: pointer;
+}
+
+.formulario p,
+.formulario h3,
+.formulario h2 {
+  color: #333333;
+}
+
+.formulario-grande {
+  width: 100%;
+  max-width: 1000px;
+  background: #fafafa;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
 
